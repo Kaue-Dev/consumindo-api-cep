@@ -1,5 +1,3 @@
-'use strict';
-
 const limparFormulario = (endereco) =>{
     document.getElementById('endereco').value = '';
     document.getElementById('bairro').value = '';
@@ -36,7 +34,6 @@ const pesquisarCep = async() => {
     }else{
         document.getElementById('endereco').value = 'CEP incorreto!';
     }
-     
 }
 
 document.getElementById('cep')
