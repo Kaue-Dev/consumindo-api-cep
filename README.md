@@ -7,4 +7,4 @@
 
 <p>Esse projeto foi desenvolvido durante minhas aulas de programação para internet utilizando HTML, CSS e JavaScript</p>
 
-<p> Veja como ficou o projeto acessando o link a seguir. <a href="">Acesse aqui!</a></p>
+<p> Veja como ficou o projeto acessando o link a seguir. <a href="https://kaue-dev.github.io/consumindo-api-cep/">Acesse aqui!</a></p>
