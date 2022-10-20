@@ -1,18 +1,16 @@
-const limparFormulario = (endereco) =>{
+const limparFormulario = (endereco) => {
     document.getElementById('endereco').value = '';
     document.getElementById('bairro').value = '';
     document.getElementById('cidade').value = '';
     document.getElementById('estado').value = '';
 }
 
-
-const preencherFormulario = (endereco) =>{
+const preencherFormulario = (endereco) => {
     document.getElementById('endereco').value = endereco.logradouro;
     document.getElementById('bairro').value = endereco.bairro;
     document.getElementById('cidade').value = endereco.localidade;
     document.getElementById('estado').value = endereco.uf;
 }
-
 
 const eNumero = (numero) => /^[0-9]+$/.test(numero);
 
@@ -31,7 +29,7 @@ const pesquisarCep = async() => {
         }else {
             preencherFormulario(endereco);
         }
-    }else{
+    }else {
         document.getElementById('endereco').value = 'CEP incorreto!';
     }
 }
