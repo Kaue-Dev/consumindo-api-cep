@@ -2,7 +2,7 @@
 
 <div class="container">
     <p> Imagem do design da página </p>
-    <img src="https://media.discordapp.net/attachments/841727270234488882/1008015483510988830/unknown.png?width=1359&height=676" alt="Carrosel pókemon">
+    <img src="https://media.discordapp.net/attachments/841727270234488882/1008015483510988830/unknown.png?width=1359&height=676">
 </div>
 
 <p>Esse projeto foi desenvolvido durante minhas aulas de programação para internet utilizando HTML, CSS e JavaScript</p>
